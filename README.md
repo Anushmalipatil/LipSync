@@ -20,4 +20,6 @@ Prerequisites:
     tqdm
     numba
 
+python3 inference.py --checkpoint_path checkpoints/wav2lip.pth --face VID-20231217-WA0009.mp4 --audio temp/temp.wav
+
 Lip-syncing videos using the pre-trained models (Inference) : The result is saved in results/result_voice.mp4.
